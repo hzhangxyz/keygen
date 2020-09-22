@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+println = console.log
+
 function f1(n, byte, c) {
   for (var bitIndex = 0; bitIndex <= 7; bitIndex++) {
     var bit = (byte >> bitIndex) & 1;
@@ -80,7 +82,7 @@ for (var hash=start; hash < end; hash++){
 
 //console.log(list)
 
-list.forEach((hash)=>genFromMathId("6515-89354-81500",hash))
+list.forEach((hash)=>genFromMathId("6533-49361-84629",hash))
 
 //console.log("list:\n")
 //console.log(list)
